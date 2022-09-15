@@ -9,14 +9,20 @@
   <title>Frontend Mentor | Stats preview card component</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <div class="card containter">
-    <div class="accent-image"></div>
+    <div class="accent-image">
+      <picture>
+        <source srcset="images/image-header-mobile.jpg" media="(max-width: 1400px)">
+        <img src="images/image-header-desktop.jpg" alt="card image" />
+      </picture>
+    </div>
 
     <div class="content">
       <h1 class="heading">Get <span>insights</span> that help your business grow.</h1>
@@ -45,4 +51,5 @@
     <p>Coded by <a href="https://github.com/mescobar89">Martín Escobar.</a></p>
   </footer>
 </body>
+
 </html>
