@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: hsl(233, 47%, 7%);
+    background-color: greenyellow;
     font-size: 15px;
     font-family: var(--fuentePrincipal);
     color: #ffffff;
